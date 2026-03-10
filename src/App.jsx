@@ -14,16 +14,16 @@ const phases = [
         title: "Python & Math Essentials",
         type: "prereq",
         items: [
-          { name: "Python for Everybody (freeCodeCamp YouTube)", link: "https://youtube.com", tag: "FREE", note: "If you need a brush-up" },
-          { name: "3Blue1Brown – Essence of Linear Algebra", link: "https://youtube.com/@3blue1brown", tag: "YouTube", note: "Visual, intuitive math" },
-          { name: "3Blue1Brown – Neural Networks series", link: "https://youtube.com/@3blue1brown", tag: "YouTube", note: "Best visual intro to NNs" },
+          { name: "Python for Everybody (freeCodeCamp YouTube)", link: "https://www.freecodecamp.org/news/python-for-everybody/", tag: "FREE", note: "If you need a brush-up" },
+          { name: "3Blue1Brown – Essence of Linear Algebra", link: "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab", tag: "YouTube", note: "Visual, intuitive math" },
+          { name: "3Blue1Brown – Neural Networks series", link: "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi", tag: "YouTube", note: "Best visual intro to NNs" },
         ]
       },
       {
         title: "Machine Learning Fundamentals",
         type: "course",
         items: [
-          { name: "Machine Learning Specialization – Andrew Ng (Coursera)", link: "https://deeplearning.ai", tag: "DeepLearning.AI", note: "3 courses, gold standard" },
+          { name: "Machine Learning Specialization – Andrew Ng (Coursera)", link: "https://www.coursera.org/specializations/machine-learning-introduction", tag: "DeepLearning.AI", note: "3 courses, gold standard" },
           { name: "StatQuest with Josh Starmer", link: "https://youtube.com/@statquest", tag: "YouTube", note: "Intuitive ML explainers" },
         ]
       },
@@ -31,8 +31,8 @@ const phases = [
         title: "Deep Learning Core",
         type: "course",
         items: [
-          { name: "Deep Learning Specialization – Andrew Ng (5 courses)", link: "https://deeplearning.ai", tag: "DeepLearning.AI", note: "CNNs, RNNs, backprop, optimization" },
-          { name: "Andrej Karpathy – Neural Networks: Zero to Hero", link: "https://youtube.com/@AndrejKarpathy", tag: "YouTube ★★★", note: "Build GPT from scratch — essential" },
+          { name: "Deep Learning Specialization – Andrew Ng (5 courses)", link: "https://www.coursera.org/specializations/deep-learning", tag: "DeepLearning.AI", note: "CNNs, RNNs, backprop, optimization" },
+          { name: "Andrej Karpathy – Neural Networks: Zero to Hero", link: "https://karpathy.ai/zero-to-hero.html", tag: "YouTube ★★★", note: "Build GPT from scratch — essential" },
         ]
       }
     ]
@@ -50,9 +50,9 @@ const phases = [
         title: "How LLMs Work",
         type: "theory",
         items: [
-          { name: "Andrej Karpathy – Let's build GPT (YouTube)", link: "https://youtube.com/@AndrejKarpathy", tag: "YouTube ★★★", note: "Build a transformer from scratch" },
-          { name: "How Large Language Models Work (1hr, Karpathy)", link: "https://youtube.com/@AndrejKarpathy", tag: "YouTube", note: "Conceptual masterclass" },
-          { name: "Yannic Kilcher – Attention Is All You Need (paper walkthrough)", link: "https://youtube.com/@YannicKilcher", tag: "YouTube", note: "The transformer paper explained" },
+          { name: "Andrej Karpathy – Let's build GPT (YouTube)", link: "https://www.youtube.com/watch?v=kCc8FmEb1nY", tag: "YouTube ★★★", note: "Build a transformer from scratch" },
+          { name: "How Large Language Models Work (1hr, Karpathy)", link: "https://www.youtube.com/watch?v=zjkBMFhNj_g", tag: "YouTube", note: "Conceptual masterclass" },
+          { name: "Yannic Kilcher – Attention Is All You Need (paper walkthrough)", link: "https://www.youtube.com/watch?v=iDulhoQ2pro", tag: "YouTube", note: "The transformer paper explained" },
         ]
       },
       {
@@ -60,8 +60,8 @@ const phases = [
         type: "course",
         items: [
           { name: "ChatGPT Prompt Engineering for Developers", link: "https://deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/", tag: "DeepLearning.AI FREE", note: "By Isa Fulford & Andrew Ng" },
-          { name: "Prompt Engineering with Llama 2 & 3", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Meta's models" },
-          { name: "Prompt Engineering for Vision Models", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Multimodal prompting" },
+          { name: "Prompt Engineering with Llama 2 & 3", link: "https://www.deeplearning.ai/short-courses/prompt-engineering-with-llama-2/", tag: "DeepLearning.AI FREE", note: "Meta's models" },
+          { name: "Prompt Engineering for Vision Models", link: "https://www.deeplearning.ai/short-courses/prompt-engineering-for-vision-models/", tag: "DeepLearning.AI FREE", note: "Multimodal prompting" },
         ]
       },
       {
@@ -69,8 +69,8 @@ const phases = [
         type: "course",
         items: [
           { name: "LangChain for LLM Application Development", link: "https://deeplearning.ai/short-courses/langchain-for-llm-application-development/", tag: "DeepLearning.AI FREE", note: "Chains, parsers, memory" },
-          { name: "Building Systems with the ChatGPT API", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Multi-step workflows" },
-          { name: "Krish Naik – LangChain Full Course", link: "https://youtube.com/@krishnaik06", tag: "YouTube", note: "Build complete LLM apps" },
+          { name: "Building Systems with the ChatGPT API", link: "https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/", tag: "DeepLearning.AI FREE", note: "Multi-step workflows" },
+          { name: "Krish Naik – LangChain Full Course", link: "https://www.youtube.com/@krishnaik06", tag: "YouTube", note: "Build complete LLM apps" },
         ]
       },
       {
@@ -78,7 +78,7 @@ const phases = [
         type: "course",
         items: [
           { name: "Generative AI for Everyone – Andrew Ng", link: "https://deeplearning.ai/courses/generative-ai-for-everyone/", tag: "DeepLearning.AI", note: "Strategic + conceptual foundation" },
-          { name: "Generative AI with LLMs (Coursera)", link: "https://coursera.org", tag: "DeepLearning.AI + AWS", note: "Transformers, RLHF, deployment" },
+          { name: "Generative AI with LLMs (Coursera)", link: "https://www.coursera.org/learn/generative-ai-with-llms", tag: "DeepLearning.AI + AWS", note: "Transformers, RLHF, deployment" },
         ]
       }
     ]
@@ -96,9 +96,9 @@ const phases = [
         title: "Embeddings & Vector Databases",
         type: "theory",
         items: [
-          { name: "Understanding & Applying Text Embeddings", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Google's embedding API" },
-          { name: "Vector Databases: from Embeddings to Applications", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Weaviate, indexing, HNSW" },
-          { name: "Large Language Models with Semantic Search", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Dense + sparse retrieval" },
+          { name: "Understanding & Applying Text Embeddings", link: "https://www.deeplearning.ai/short-courses/google-cloud-vertex-ai/", tag: "DeepLearning.AI FREE", note: "Google's embedding API" },
+          { name: "Vector Databases: from Embeddings to Applications", link: "https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/", tag: "DeepLearning.AI FREE", note: "Weaviate, indexing, HNSW" },
+          { name: "Large Language Models with Semantic Search", link: "https://www.deeplearning.ai/short-courses/large-language-models-semantic-search/", tag: "DeepLearning.AI FREE", note: "Dense + sparse retrieval" },
         ]
       },
       {
@@ -107,17 +107,17 @@ const phases = [
         items: [
           { name: "LangChain: Chat With Your Data", link: "https://deeplearning.ai/short-courses/langchain-chat-with-your-data/", tag: "DeepLearning.AI FREE", note: "Chunking, retrieval, Q&A chains" },
           { name: "Retrieval Augmented Generation (RAG) – DeepLearning.AI", link: "https://learn.deeplearning.ai/courses/retrieval-augmented-generation/", tag: "DeepLearning.AI ★★★", note: "Full RAG course with Weaviate" },
-          { name: "Advanced Retrieval for AI with Chroma", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Query expansion, re-ranking" },
+          { name: "Advanced Retrieval for AI with Chroma", link: "https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/", tag: "DeepLearning.AI FREE", note: "Query expansion, re-ranking" },
         ]
       },
       {
         title: "Advanced RAG Techniques",
         type: "advanced",
         items: [
-          { name: "Building & Evaluating Advanced RAG", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "RAG Triad evaluation, TruLens" },
-          { name: "Knowledge Graphs for RAG", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Neo4j + LLMs" },
-          { name: "Preprocessing Unstructured Data for LLM Apps", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "PDFs, images, tables" },
-          { name: "Multimodal RAG: Chat with Videos", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Video as retrieval source" },
+          { name: "Building & Evaluating Advanced RAG", link: "https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/", tag: "DeepLearning.AI FREE", note: "RAG Triad evaluation, TruLens" },
+          { name: "Knowledge Graphs for RAG", link: "https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/", tag: "DeepLearning.AI FREE", note: "Neo4j + LLMs" },
+          { name: "Preprocessing Unstructured Data for LLM Apps", link: "https://www.deeplearning.ai/short-courses/preprocessing-unstructured-data-for-llm-applications/", tag: "DeepLearning.AI FREE", note: "PDFs, images, tables" },
+          { name: "Multimodal RAG: Chat with Videos", link: "https://www.deeplearning.ai/short-courses/multimodal-rag-chat-with-videos/", tag: "DeepLearning.AI FREE", note: "Video as retrieval source" },
         ]
       },
       {
@@ -143,7 +143,7 @@ const phases = [
         title: "Agent Fundamentals",
         type: "theory",
         items: [
-          { name: "Functions, Tools and Agents with LangChain", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Tool calling, OpenAI functions" },
+          { name: "Functions, Tools and Agents with LangChain", link: "https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/", tag: "DeepLearning.AI FREE", note: "Tool calling, OpenAI functions" },
           { name: "AI Agents in LangGraph", link: "https://deeplearning.ai/short-courses/ai-agents-in-langgraph/", tag: "DeepLearning.AI FREE ★★★", note: "Stateful agents with LangGraph" },
           { name: "AI Jason – Agent tutorials & workflows", link: "https://youtube.com/@AIJasonZ", tag: "YouTube", note: "Agent design patterns" },
         ]
@@ -153,7 +153,7 @@ const phases = [
         type: "course",
         items: [
           { name: "Building Agentic RAG with LlamaIndex", link: "https://deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/", tag: "DeepLearning.AI FREE ★★★", note: "Routers, tool-calling agents, multi-doc" },
-          { name: "LlamaIndex: Agentic Workflows", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Query pipelines, agentic RAG" },
+          { name: "LlamaIndex: Agentic Workflows", link: "https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/", tag: "DeepLearning.AI FREE", note: "Query pipelines, agentic RAG" },
         ]
       },
       {
@@ -161,9 +161,9 @@ const phases = [
         type: "advanced",
         items: [
           { name: "Multi AI Agent Systems with crewAI", link: "https://deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/", tag: "DeepLearning.AI FREE ★★★", note: "Role-based agent collaboration" },
-          { name: "Practical Multi AI Agents and Advanced Use Cases with crewAI", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Production patterns" },
-          { name: "LLMs as Operating Systems: Agent Memory", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Memory architectures for agents" },
-          { name: "Building Your Own Database Agent", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Agents that query SQL/NoSQL" },
+          { name: "Practical Multi AI Agents and Advanced Use Cases with crewAI", link: "https://www.deeplearning.ai/short-courses/practical-multi-ai-agents-and-advanced-use-cases-with-crewai/", tag: "DeepLearning.AI FREE", note: "Production patterns" },
+          { name: "LLMs as Operating Systems: Agent Memory", link: "https://www.deeplearning.ai/short-courses/llms-as-operating-systems-agent-memory/", tag: "DeepLearning.AI FREE", note: "Memory architectures for agents" },
+          { name: "Building Your Own Database Agent", link: "https://www.deeplearning.ai/short-courses/building-your-own-database-agent/", tag: "DeepLearning.AI FREE", note: "Agents that query SQL/NoSQL" },
         ]
       },
       {
@@ -192,7 +192,7 @@ const phases = [
         items: [
           { name: "Finetuning Large Language Models", link: "https://deeplearning.ai/short-courses/finetuning-large-language-models/", tag: "DeepLearning.AI FREE", note: "When/why to fine-tune" },
           { name: "LLMOps", link: "https://deeplearning.ai/short-courses/llmops/", tag: "DeepLearning.AI FREE", note: "Supervised tuning pipeline, versioning" },
-          { name: "Parameter Efficient Fine-Tuning (PEFT + LoRA)", link: "https://youtube.com", tag: "YouTube / HuggingFace", note: "LoRA, QLoRA with HuggingFace TRL" },
+          { name: "Parameter Efficient Fine-Tuning (PEFT + LoRA)", link: "https://huggingface.co/docs/peft/main/en/index", tag: "YouTube / HuggingFace", note: "LoRA, QLoRA with HuggingFace TRL" },
         ]
       },
       {
@@ -200,8 +200,8 @@ const phases = [
         type: "course",
         items: [
           { name: "Reinforcement Learning from Human Feedback (RLHF)", link: "https://deeplearning.ai/short-courses/reinforcement-learning-from-human-feedback/", tag: "DeepLearning.AI FREE", note: "RLHF pipeline from scratch" },
-          { name: "Evaluating and Debugging Generative AI", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Weights & Biases, eval frameworks" },
-          { name: "Red Teaming LLM Applications", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Safety, bias, adversarial testing" },
+          { name: "Evaluating and Debugging Generative AI", link: "https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/", tag: "DeepLearning.AI FREE", note: "Weights & Biases, eval frameworks" },
+          { name: "Red Teaming LLM Applications", link: "https://www.deeplearning.ai/short-courses/red-teaming-llm-applications/", tag: "DeepLearning.AI FREE", note: "Safety, bias, adversarial testing" },
         ]
       },
       {
@@ -227,18 +227,18 @@ const phases = [
         title: "Deployment & Serving",
         type: "course",
         items: [
-          { name: "ML in Production / MLOps Specialization – Andrew Ng", link: "https://deeplearning.ai", tag: "DeepLearning.AI", note: "CI/CD, monitoring, drift detection" },
-          { name: "Efficiently Serving LLMs", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "KV cache, batching, quantization" },
-          { name: "Quantization Fundamentals with Hugging Face", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "GPTQ, GGUF, INT4" },
+          { name: "ML in Production / MLOps Specialization – Andrew Ng", link: "https://www.coursera.org/learn/introduction-to-machine-learning-in-production", tag: "DeepLearning.AI", note: "CI/CD, monitoring, drift detection" },
+          { name: "Efficiently Serving LLMs", link: "https://www.deeplearning.ai/short-courses/efficiently-serving-llms/", tag: "DeepLearning.AI FREE", note: "KV cache, batching, quantization" },
+          { name: "Quantization Fundamentals with Hugging Face", link: "https://www.deeplearning.ai/short-courses/quantization-fundamentals-with-hugging-face/", tag: "DeepLearning.AI FREE", note: "GPTQ, GGUF, INT4" },
         ]
       },
       {
         title: "Evaluation & Observability",
         type: "course",
         items: [
-          { name: "LangSmith for LLM Observability (LangChain docs + YouTube)", link: "https://youtube.com", tag: "YouTube/Docs", note: "Tracing, evals, debugging" },
-          { name: "Automated Testing for LLMOps", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "CI pipelines for LLM apps" },
-          { name: "Building Production-Ready RAG Apps (Nvidia NeMo)", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Observability, eval, deployment" },
+          { name: "LangSmith for LLM Observability (LangChain docs + YouTube)", link: "https://academy.langchain.com/courses/intro-to-langsmith", tag: "YouTube/Docs", note: "Tracing, evals, debugging" },
+          { name: "Automated Testing for LLMOps", link: "https://www.deeplearning.ai/short-courses/automated-testing-llmops/", tag: "DeepLearning.AI FREE", note: "CI pipelines for LLM apps" },
+          { name: "Building Production-Ready RAG Apps (Nvidia NeMo)", link: "https://www.deeplearning.ai/short-courses/building-production-ready-rag-apps/", tag: "DeepLearning.AI FREE", note: "Observability, eval, deployment" },
         ]
       },
       {
@@ -264,10 +264,10 @@ const phases = [
         title: "Multimodal & Emerging",
         type: "advanced",
         items: [
-          { name: "Multimodal RAG: Chat with Videos", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "Vision + text retrieval" },
-          { name: "Build LLM Apps with LangChain.js", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "For JS/TS devs" },
-          { name: "Open Source Models with HuggingFace", link: "https://deeplearning.ai", tag: "DeepLearning.AI FREE", note: "ZeroShotClassification, Diffusers" },
-          { name: "Build and Train an LLM with JAX (NEW 2026)", link: "https://deeplearning.ai", tag: "DeepLearning.AI", note: "Train from scratch" },
+          { name: "Multimodal RAG: Chat with Videos", link: "https://www.deeplearning.ai/short-courses/multimodal-rag-chat-with-videos/", tag: "DeepLearning.AI FREE", note: "Vision + text retrieval" },
+          { name: "Build LLM Apps with LangChain.js", link: "https://www.deeplearning.ai/short-courses/build-llm-apps-with-langchain-js/", tag: "DeepLearning.AI FREE", note: "For JS/TS devs" },
+          { name: "Open Source Models with HuggingFace", link: "https://www.deeplearning.ai/short-courses/open-source-models-hugging-face/", tag: "DeepLearning.AI FREE", note: "ZeroShotClassification, Diffusers" },
+          { name: "Build and Train an LLM with JAX (NEW 2026)", link: "https://www.deeplearning.ai/short-courses/build-and-train-an-llm-with-jax/", tag: "DeepLearning.AI", note: "Train from scratch" },
         ]
       },
       {
@@ -554,7 +554,23 @@ export default function AIRoadmap() {
                             <div style={{ width: "6px", height: "6px", borderRadius: "50%", background: phase.color, flexShrink: 0, marginTop: "6px" }} />
                             <div style={{ flex: 1, minWidth: "200px" }}>
                               <div style={{ fontSize: "13px", color: "#e2e8f0", fontWeight: "500", marginBottom: "2px", lineHeight: "1.4" }}>
-                                {item.name}
+                                {item.link ? (
+                                  <a
+                                    href={item.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{
+                                      color: "#e2e8f0",
+                                      textDecoration: "none",
+                                      borderBottom: "1px solid rgba(255,255,255,0.15)",
+                                      transition: "color 0.15s, border-color 0.15s",
+                                    }}
+                                    onMouseEnter={e => { e.currentTarget.style.color = phase.color; e.currentTarget.style.borderBottomColor = phase.color; }}
+                                    onMouseLeave={e => { e.currentTarget.style.color = "#e2e8f0"; e.currentTarget.style.borderBottomColor = "rgba(255,255,255,0.15)"; }}
+                                  >
+                                    {item.name}
+                                  </a>
+                                ) : item.name}
                               </div>
                               {item.note && (
                                 <div style={{ fontSize: "11px", color: "#475569", letterSpacing: "0.3px" }}>
